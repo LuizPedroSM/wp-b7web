@@ -1,0 +1,22 @@
+/* Header */
+.top_head {
+  background-color: #2d3a64;
+  height: 5px;
+}
+.custom-logo {
+  height: 60px;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Banner */
+.banner {
+  background-image: url("../images/bg.jpg");
+  background-position: center;
+  height: 300px;
+}
+.hero-image {
+  height: 285px;
+  margin-top: 15px;
+}
