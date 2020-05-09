@@ -14,7 +14,41 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-2"><?php (has_custom_logo()) ? the_custom_logo() : '' ?></div>
-                    <div class="col-sm-10">Menu</div>
+                    <div class="col-sm-10">
+                        <div class="menuarea">
+                            <nav>
+                                <?php 
+                                if(has_nav_menu('top')) {
+                                    wp_nav_menu(array(
+                                        'theme_location' => 'top',
+                                        'container' => false,
+                                        'fallback_cb' => false
+                                    ));
+                                }
+                                ?>
+                            </nav>
+                            <div class="social">
+                                <?php if(get_theme_mod('bb_facebook')):?>
+                                <a target="_blank" href="<?php echo get_theme_mod('bb_facebook');?>">
+                                    <img src="<?php echo get_template_directory_uri();?>/assets/images/fb_logo.png"
+                                        alt="facebook">
+                                </a>
+                                <?php endif;?>
+                                <?php if(get_theme_mod('bb_youtube')):?>
+                                <a target="_blank" href="<?php echo get_theme_mod('bb_youtube');?>">
+                                    <img src="<?php echo get_template_directory_uri();?>/assets/images/yt_logo.png"
+                                        alt="youtube">
+                                </a>
+                                <?php endif;?>
+                                <?php if(get_theme_mod('bb_instagram')):?>
+                                <a target="_blank" href="<?php echo get_theme_mod('bb_instagram');?>">
+                                    <img src="<?php echo get_template_directory_uri();?>/assets/images/in_logo.png"
+                                        alt="instagram">
+                                </a>
+                                <?php endif;?>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
