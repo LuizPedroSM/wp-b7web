@@ -106,3 +106,18 @@
   height: 285px;
   margin-top: 15px;
 }
+
+/* Testimonials */
+.testimonials {
+  height: 100px;
+  background-color: #e3e3e3;
+  padding-top: 17px;
+}
+
+.testimonials img {
+  height: 65px;
+  width: auto;
+  border-radius: 5px;
+  float: left;
+  margin-right: 20px;
+}
