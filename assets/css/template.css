@@ -122,7 +122,7 @@
 }
 
 /* Posts */
-article.post {
+article.type-post {
   margin-top: 45px;
   margin-bottom: 45px;
 }
@@ -153,4 +153,15 @@ article.post {
   padding: 12px;
   background-color: #455482;
   border-radius: 8px;
+}
+
+/* Load more */
+.loadmoreButton {
+  color: #2d3a64;
+  font-size: 16px;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 45px;
+  width: 130px;
+  cursor: pointer;
 }

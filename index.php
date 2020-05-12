@@ -20,7 +20,7 @@
             <?php 
             $t2 = rand(1, 5);
             while($t2 == $t) {
-                $d2 = rand(1 ,5);
+                $t2 = rand(1 ,5);
             };
             $txt = get_theme_mod('bb_testi'.$t2.'_txt');
             $author = get_theme_mod('bb_testi'.$t2.'_author');
@@ -35,14 +35,19 @@
 </div>
 <section>
     <div class="container">
-        <?php 
-        if (have_posts()) {
-            while (have_posts()) {
-                the_post();
-                get_template_part('template_parts/post');
+        <div class="postscontent">
+            <?php 
+            if (have_posts()) {
+                while (have_posts()) {
+                    the_post();
+                    get_template_part('template_parts/post');
+                }
             }
-        }
-        ?>
+            ?>
+        </div>
+        <div class="loadmoreButton">
+            ᐯ Carregar Mais
+        </div>
     </div>
 </section>
 <?php get_footer()?>
