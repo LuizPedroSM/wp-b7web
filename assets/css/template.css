@@ -113,11 +113,44 @@
   background-color: #e3e3e3;
   padding-top: 17px;
 }
-
 .testimonials img {
   height: 65px;
   width: auto;
   border-radius: 5px;
   float: left;
   margin-right: 20px;
+}
+
+/* Posts */
+article.post {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.post_thumb {
+  width: 100%;
+  height: auto;
+}
+.post_title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.post_title a {
+  color: #2d3a64;
+  text-decoration: none;
+}
+.post_excerpt {
+  font-size: 14px;
+  color: #000;
+  margin-top: 20px;
+}
+.post_readmore {
+  margin-top: 30px;
+}
+.post_button {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  padding: 12px;
+  background-color: #455482;
+  border-radius: 8px;
 }
