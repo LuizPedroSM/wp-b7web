@@ -1,6 +1,7 @@
-<?php get_header();?>
-
-<?php (is_home())? get_template_part('template_parts/banner-home') : get_template_part('template_parts/banner-single');?>
+<?php 
+get_header();
+get_template_part('template_parts/banner-home');
+?>
 
 <div class="testimonials">
     <div class="container">

@@ -57,7 +57,6 @@
 .banner {
   background-image: url("../images/bg.jpg");
   background-position: center;
-  height: 300px;
 }
 .banner h2 {
   font-size: 30px;
@@ -101,6 +100,12 @@
   padding-right: 20px;
   margin-left: 10px;
   box-shadow: 2px 2px 8px #333;
+}
+.banner-small {
+  padding-bottom: 30px;
+}
+.banner-small h2 {
+  margin-top: 55px;
 }
 .hero-image {
   height: 285px;
@@ -189,4 +194,14 @@ article.type-post {
   padding-bottom: 15px;
   font-size: 12px;
   color: #fff;
+}
+
+/* Post single */
+.post_content {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.post_content img,
+.post_content iframe {
+  width: 100%;
 }
