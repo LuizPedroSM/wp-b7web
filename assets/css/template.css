@@ -205,3 +205,48 @@ article.type-post {
 .post_content iframe {
   width: 100%;
 }
+
+/* Comments */
+.commentlist {
+  list-style: none;
+  padding: 0;
+}
+.commentlist .children {
+  list-style: none;
+}
+.commentlist .reply {
+  text-align: right;
+}
+.commentlist .comment-author .says {
+  display: none;
+}
+.comment-body {
+  background-color: #eee;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: double #ddd;
+}
+
+.comment-respond label {
+  display: block;
+}
+.comment-respond textarea,
+.comment-respond input[type="text"] {
+  width: 300px;
+  border: 2px solid #ddd;
+  outline: 0;
+  padding: 5px;
+}
+
+.comment-respond .submit {
+  height: 45px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #293a65;
+  background-color: #a0afe0;
+  border: 0;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
