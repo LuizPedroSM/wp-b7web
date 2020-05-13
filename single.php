@@ -18,15 +18,15 @@ get_template_part('template_parts/banner-single');
             <div class="post_related row">
                 <?php 
                 $categories = get_the_category();
-                $bp_query = new WP_Query(array(
-                    'posts_per_page' => 3,
+                $bb_query = new WP_Query(array(
+                    'posts_per_page' => 4,
                     'post__not_in' => array($post->ID),
                     'cat' => $categories[0]->term_id
                 ));
 
-                if ($bp_query->have_posts()) {
-                    while ($bp_query->have_posts()) {
-                        $bp_query->the_post();
+                if ($bb_query->have_posts()) {
+                    while ($bb_query->have_posts()) {
+                        $bb_query->the_post();
                         get_template_part('template_parts/related-post');
                     }
                     wp_reset_postdata();
