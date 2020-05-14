@@ -250,3 +250,76 @@ article.type-post {
   padding-left: 20px;
   padding-right: 20px;
 }
+@media (max-width: 1200px) {
+  .hero-image {
+    margin-top: 98px;
+    width: 100%;
+    height: auto;
+  }
+  .banner .optin_email {
+    max-width: 100%;
+  }
+  .banner .optin_btn {
+    clear: both;
+    margin: 10px 0px;
+    width: 100%;
+  }
+}
+@media (max-width: 990px) {
+  .hero-image {
+    margin-top: 164px;
+  }
+}
+@media (max-width: 767px) {
+  /* Menu */
+  .menuarea {
+    float: none;
+  }
+  .menuarea nav {
+    float: none;
+  }
+  .menuarea nav li {
+    float: none;
+    line-height: 30px;
+    margin: 0;
+  }
+  .menuarea .social {
+    float: none;
+    margin: 0;
+  }
+  .menuarea .social img {
+    height: 20px;
+    width: auto;
+    margin: 10px 5px;
+  }
+
+  /* Banner */
+  .hero-image {
+    margin: 0;
+  }
+  .banner h2 {
+    font-size: 25px;
+    margin-top: 10px;
+    line-height: 30px;
+  }
+  .banner .optin {
+    margin-top: 16px;
+    font-size: 14px;
+  }
+
+  /* Testimonials */
+  .testimonials {
+    height: auto;
+  }
+  .testimonials .col-sm-6 {
+    clear: both;
+  }
+  .testimonials img {
+    margin-bottom: 20px;
+  }
+
+  /* Footer */
+  .cursos img {
+    margin-bottom: 10px;
+  }
+}
