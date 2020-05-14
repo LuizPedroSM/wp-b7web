@@ -140,7 +140,6 @@ article.type-post {
   font-weight: bold;
 }
 .post_title a {
-  color: #2d3a64;
   text-decoration: none;
 }
 .post_excerpt {
@@ -156,7 +155,6 @@ article.type-post {
   font-weight: bold;
   color: #fff;
   padding: 12px;
-  background-color: #455482;
   border-radius: 8px;
 }
 

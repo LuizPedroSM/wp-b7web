@@ -35,6 +35,17 @@
 let ajaxUrl = "<?php echo admin_url('admin-ajax.php');?>";
 </script>
 <?php wp_footer();?>
+<style type="text/css">
+.post_title a {
+    color: <?php echo get_theme_mod('bb_colorTitle');
+    ?>;
+}
+
+.post_button {
+    background-color: <?php echo get_theme_mod('bb_colorButton');
+    ?>;
+}
+</style>
 </body>
 
 </html>
